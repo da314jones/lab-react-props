@@ -7,7 +7,7 @@ function DonationForm(props) {
   return (
     <section className="donation">
       <h3>
-        You could be donation <span className="secondary">#{donationIndex}!</span>
+        You could be donation <span className="secondary">#{donationIndex(props.donations)}!</span>
       </h3>
       <form>
         <label htmlFor="name">
